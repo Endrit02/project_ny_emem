@@ -1,31 +1,96 @@
+body,
+input,
+textarea,
+select,
+option {
+  font-family: "DIN Alternate", "Unna", sans-serif;
+  font-size: 14px;
+  color: #86763f;
+}
+
 .container {
-    max-width: 1760px;
-    width: 100%;
-    height: 2588px;
-    background-color:rgba(178, 173, 162, 0.1)
-  
-  }
-  
-  .container__title {
-    font-family: 'Unna', sans-serif;
-    font-size: 38px;
-    color: #86763F;
-    padding-top: 75px;
-    padding-left: 280px;
-  }
-  
-  .container__description {
-    font-family: 'DIN Alternate', sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    color: #5A4A41;
-    padding-top: 40px;
-    padding-left: 280px;
-  }
-  
-  .container__content img {
-    padding-top: 63px;
-    padding-left: 280px;
-    max-width: 1200px;
-    height: 1532.31px;
-  }
+  max-width: 1760px;
+  height: 2588px;
+  width: 100%;
+  background-color: rgba(178, 173, 162, 0.1);
+}
+
+.container__content {
+  width: 1200px;
+  height: 1532.31px;
+}
+
+.container__title {
+  font-family: "Unna", sans-serif;
+  font-size: 38px;
+  color: #86763f;
+  padding-top: 75px;
+  padding-left: 145px;
+}
+
+.container__description {
+  font-family: "DIN Alternate", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #5a4a41;
+  padding-top: 40px;
+  padding-left: 145px;
+}
+
+.container__content img {
+  width: 1200px;
+  height: 1532.31px;
+  margin: 63px 0 0 145px;
+}
+
+hr {
+  width: 1200px;
+  height: 1px;
+  margin-top: 112.7px;
+  margin-bottom: 105px;
+  background-color: rgba(178, 173, 162, 0.5);
+}
+
+.boxes_info {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.info {
+  width: 368px;
+  height: 200px;
+  padding: 0 24px;
+}
+
+.info_title h2 {
+  font-family: "Unna" sans-serif;
+  font-size: 38px;
+  color: #86763f;
+  margin-left: 215px;
+}
+
+.info__content h3 {
+  font-family: "Unna" sans-serif;
+  font-size: 28px;
+  color: #86763f;
+  line-height: 37px;
+  padding-top: 20px;
+}
+
+.info__content span {
+  font-family: "Unna" sans-serif;
+  font-size: 18px;
+  color: #86763f;
+  line-height: 30px;
+}
+
+.info_list li,
+a {
+  font-family: "Unna" sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: #5a4a41;
+  padding-left: 21px;
+  line-height: 28px;
+}
